@@ -56,7 +56,7 @@ const CoverSignUp = () => {
                       <div className="p-lg-5 p-4">
                         <div>
                           <h5 className="text-primary">Register Account</h5>
-                          <p className="text-muted">Create your store.</p>
+                          <p className="text-muted">Enter Admin Information.</p>
                         </div>
 
                         <div className="mt-4">
@@ -83,8 +83,7 @@ const CoverSignUp = () => {
                             </div>
                             <div className="mb-3">
                               <label htmlFor="username" className="form-label">
-                                Store name{" "}
-                                <span className="text-danger">*</span>
+                                Full name <span className="text-danger">*</span>
                               </label>
                               <input
                                 type="text"
@@ -182,7 +181,7 @@ const CoverSignUp = () => {
                                 className="btn btn-secondary w-100"
                                 type="submit"
                               >
-                                Sign Up
+                                Continue
                               </button>
                             </div>
 

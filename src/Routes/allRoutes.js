@@ -465,7 +465,7 @@ const authProtectedRoutes = [
   {
     path: "/",
     exact: true,
-    component: <Navigate to="/page-not-found" />,
+    component: <Navigate to="/login" />,
   },
   { path: "*", component: <Navigate to="/page-not-found" /> },
 ];
@@ -481,6 +481,7 @@ const publicRoutes = [
   { path: "/auth-signin-basic", component: <BasicSignIn /> },
   { path: "/auth-signin-cover", component: <CoverSignIn /> },
   { path: "/auth-signup-basic", component: <BasicSignUp /> },
+  { path: "/create-store", component: <BasicSignUp /> },
   { path: "/auth-signup-cover", component: <CoverSignUp /> },
   { path: "/auth-pass-reset-basic", component: <BasicPasswReset /> },
   { path: "/auth-pass-reset-cover", component: <CoverPasswReset /> },
