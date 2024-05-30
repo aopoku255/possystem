@@ -184,12 +184,12 @@ const BasicSignUp = () => {
                         </div>
 
                         <div className="mt-4">
-                          <button
+                          <Link
                             className="btn btn-secondary w-100"
-                            type="submit"
+                            to="/dashboard"
                           >
                             Register
-                          </button>
+                          </Link>
                         </div>
 
                         {/* <div className="mt-4 text-center">

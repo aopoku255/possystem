@@ -21,7 +21,7 @@ const ecomWidgets = [
   {
     id: 1,
     cardColor: "primary",
-    label: "Total Earnings",
+    label: "Sales Today",
     badge: "ri-arrow-right-up-line",
     badgeClass: "success",
     percentage: "+16.24",
